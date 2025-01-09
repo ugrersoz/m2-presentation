@@ -1,5 +1,7 @@
 # m2-presentation
-M2 course : Machine Learning in Drug Discovery
+M2 Course : Project Management and Production Process
+
+Topic: Machine Learning in Drug Discovery
 
 -Presentation : https://www.canva.com/design/DAGbc8mwtT4  
 
