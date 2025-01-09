@@ -1,5 +1,5 @@
 # m2-presentation
-M2 Course : Project Management and Production Process
+M2 Course : Project Management for Production Processes
 
 Topic: Machine Learning in Drug Discovery
 
