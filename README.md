@@ -10,7 +10,7 @@ This repository presents the outcomes of an M2 Course assignment focused on **Pr
 
 ## Content 📝
 - **Topic**: Machine Learning in Drug Discovery  
-- **Presentation**: [Access Presentation](https://www.canva.com/design/DAGbc8mwtT4/k9-w-kcwI-w11zkxYiPFJA)) 📊
+- **Presentation**: [Access Presentation](https://www.canva.com/design/DAGbc8mwtT4/k9-w-kcwI-w11zkxYiPFJA/edit?utm_content=DAGbc8mwtT4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) 📊
 - **References**: [View References](https://ugrersoz.github.io/m2-presentation/) 🔗
 
 ## Visual Representation 📷
