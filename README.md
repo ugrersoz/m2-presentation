@@ -1,4 +1,4 @@
-# M2 Presentation 🎓
+# M2 Course : Project Management for Production Processes | Research Presentation: Machine Learning in Drug Discovery 🎓
 
 ## Overview 📊
 This repository presents the outcomes of an M2 Course assignment focused on **Project Management for Production Processes**, conducted as part of my academic training at **Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)**. The work centers on the application of **Machine Learning in Drug Discovery**, exploring the intersection of advanced computational techniques and pharmaceutical research. 🚀🔬
