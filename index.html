@@ -3,82 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="References for a research presentation on Machine Learning in Drug Discovery, part of M2 coursework at HTW Berlin.">
+    <meta name="keywords" content="machine learning, drug discovery, HTW Berlin, research references">
     <title>Presentation References</title>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; 
+            line-height: 1.6; 
+            max-width: 90%; 
+            margin: 0 auto; 
+            padding: 20px; 
+            background-color: #f0f2f5;
+        }
+        .container { 
+            background-color: white; 
+            padding: 30px; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+        }
+        .header-image {
+            width: 100%;
             max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f5f5f5;
+            height: auto;
+            border-radius: 8px 8px 0 0;
+            margin-bottom: 20px;
         }
-        
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-
-        h1 {
-            color: #2c3e50;
-            border-bottom: 2px solid #3498db;
+        h1 { 
+            color: #1a252f; 
+            border-bottom: 2px solid #1abc9c; 
             padding-bottom: 10px;
-        }
-
-        .reference-section {
-            margin-bottom: 30px;
-        }
-
-        .reference-section h2 {
-            color: #34495e;
             margin-top: 20px;
         }
-
-        .reference-item {
-            margin-bottom: 15px;
-            padding: 15px;
-            background-color: #f8f9fa;
-            border-left: 4px solid #3498db;
-            border-radius: 4px;
+        .reference-section h2 { 
+            color: #34495e; 
+            margin-top: 20px; 
         }
-
-        .reference-item h3 {
-            margin: 0 0 10px 0;
-            color: #2c3e50;
+        .reference-item { 
+            margin-bottom: 15px; 
+            padding: 15px; 
+            background-color: #f8f9fa; 
+            border-left: 4px solid #1abc9c; 
+            border-radius: 4px; 
         }
-
-        .reference-item p {
-            margin: 5px 0;
-            color: #555;
+        .reference-item h3 { 
+            margin: 0 0 10px 0; 
+            color: #2c3e50; 
         }
-
-        .reference-item .authors {
-            font-style: italic;
-            color: #666;
+        .reference-item p { 
+            margin: 5px 0; 
+            color: #555; 
         }
-
-        .reference-item .date {
-            color: #888;
-            font-size: 0.9em;
+        .summary { 
+            color: #666; 
+            font-size: 0.9em; 
+            margin-top: 10px; 
         }
-
-        footer {
-            margin-top: 30px;
-            text-align: center;
-            color: #666;
-            font-size: 0.9em;
+        .reference-item .authors { 
+            font-style: italic; 
+            color: #666; 
         }
-
-        @media (max-width: 600px) {
-            body {
-                padding: 10px;
-            }
-            
-            .container {
-                padding: 15px;
-            }
+        .reference-item .date { 
+            color: #888; 
+            font-size: 0.9em; 
+        }
+        footer { 
+            margin-top: 30px; 
+            text-align: center; 
+            color: #666; 
+            font-size: 0.9em; 
+        }
+        @media (max-width: 600px) { 
+            .container { padding: 15px; } 
+            .reference-item { padding: 10px; font-size: 0.9em; }
+            .header-image { max-width: 100%; }
         }
     </style>
 </head>
@@ -86,43 +83,50 @@
     <div class="container">
         <img src="https://github.com/ugrersoz/m2-presentation/blob/main/Ugur%20Ers%C3%B6z_Machine%20Learning%20in%20Drug%20Discovery.png" alt="Machine Learning in Drug Discovery Presentation Cover" class="header-image">
         <h1>Presentation References</h1>
+        <input type="text" id="searchInput" placeholder="Search references..." style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 4px;">
         <div class="reference-section">
             <h2>Academic Papers</h2>
             <div class="reference-item">
                 <h3>Machine Learning in Drug Discovery and Development Part 1: A Primer</h3>
-                <p class="authors">Talevi, A., et al. </p>
+                <p class="authors">Talevi, A., et al.</p>
                 <p class="date">2020</p>
-                <p>DOI: 10.1002/psp4.12491</p>
+                <p><a href="https://doi.org/10.1002/psp4.12491" target="_blank">10.1002/psp4.12491</a></p>
+                <p class="summary">Provides an introductory overview of machine learning applications in drug discovery.</p>
             </div>
             <div class="reference-item">
                 <h3>Machine learning applications in drug development</h3>
                 <p class="authors">Réda, C., Kaufmann, E., & Delahaye-Duriez, A.</p>
                 <p class="date">2019</p>
-                <p>DOI: 10.1016/j.csbj.2019.12.006</p>
+                <p><a href="https://doi.org/10.1016/j.csbj.2019.12.006" target="_blank">10.1016/j.csbj.2019.12.006</a></p>
+                <p class="summary">Explores practical applications of machine learning in the drug development process.</p>
             </div>
             <div class="reference-item">
                 <h3>Supervised machine learning in drug discovery and development: Algorithms, applications, challenges, and prospects</h3>
                 <p class="authors">Obaido et al.</p>
                 <p class="date">2024</p>
-                <p>DOI: 10.1016/j.mlwa.2024.100576</p>
+                <p><a href="https://doi.org/10.1016/j.mlwa.2024.100576" target="_blank">10.1016/j.mlwa.2024.100576</a></p>
+                <p class="summary">Discusses supervised learning techniques and their challenges in drug discovery.</p>
             </div>
-                 <div class="reference-item">
+            <div class="reference-item">
                 <h3>Applications of machine learning in drug discovery and development</h3>
-                <p class="authors">Vamathevan et al. </p>
+                <p class="authors">Vamathevan et al.</p>
                 <p class="date">2019</p>
-                <p>DOI: 10.1038/s41573-019-0024-5</p>
+                <p><a href="https://doi.org/10.1038/s41573-019-0024-5" target="_blank">10.1038/s41573-019-0024-5</a></p>
+                <p class="summary">Reviews diverse machine learning applications across drug discovery phases.</p>
             </div>
             <div class="reference-item">
                 <h3>The Role of AI in Drug Discovery: Challenges, Opportunities, and Strategies</h3>
                 <p class="authors">Blanco-González et al.</p>
                 <p class="date">2023</p>
-                <p>DOI: 10.3390/ph16060891</p>
+                <p><a href="https://doi.org/10.3390/ph16060891" target="_blank">10.3390/ph16060891</a></p>
+                <p class="summary">Analyzes the opportunities and challenges of AI in pharmaceutical research.</p>
             </div>
             <div class="reference-item">
                 <h3>AIDDISON: Empowering Drug Discovery with AI/ML and CADD Tools in a Secure, Web-Based SaaS Platform</h3>
                 <p class="authors">Rusinko et al.</p>
-                <p class="date">2023 </p>
-                <p>DOI:  10.1021/acs.jcim.3c01016</p>
+                <p class="date">2023</p>
+                <p><a href="https://doi.org/10.1021/acs.jcim.3c01016" target="_blank">10.1021/acs.jcim.3c01016</a></p>
+                <p class="summary">Introduces a platform integrating AI and computational tools for drug discovery.</p>
             </div>
         </div>
 
@@ -131,36 +135,42 @@
             <div class="reference-item">
                 <h3>AlphaProteo generates novel proteins for biology and health research</h3>
                 <p class="authors">Google Deep Mind</p>
-                <p><a href="https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/">https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/</a></p>
+                <p><a href="https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/" target="_blank">https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/</a></p>
+                <p class="summary">Details Google DeepMind's work on protein generation using AI.</p>
             </div>
             <div class="reference-item">
                 <h3>Machine Learning in Drug Discovery</h3>
                 <p class="authors">Stacy Tan</p>
-                <p><a href="https://d3.harvard.edu/platform-rctom/submission/machine-learning-in-drug-discovery/">https://d3.harvard.edu/platform-rctom/submission/machine-learning-in-drug-discovery/</a></p>
+                <p><a href="https://d3.harvard.edu/platform-rctom/submission/machine-learning-in-drug-discovery/" target="_blank">https://d3.harvard.edu/platform-rctom/submission/machine-learning-in-drug-discovery/</a></p>
+                <p class="summary">Offers insights into machine learning's role in pharmaceutical innovation.</p>
             </div>
             <div class="reference-item">
                 <h3>AI in Pharma: How Machine Learning Is Revolutionising Every Step in Drug Development</h3>
                 <p class="authors">Endava</p>
-                <p><a href="https://www.endava.com/insights/articles/ai-in-pharma-how-machine-learning-is-revolutionising-every-step-in-drug-development">https://www.endava.com/insights/articles/ai-in-pharma-how-machine-learning-is-revolutionising-every-step-in-drug-development</a></p>
+                <p><a href="https://www.endava.com/insights/articles/ai-in-pharma-how-machine-learning-is-revolutionising-every-step-in-drug-development" target="_blank">https://www.endava.com/insights/articles/ai-in-pharma-how-machine-learning-is-revolutionising-every-step-in-drug-development</a></p>
+                <p class="summary">Explores the transformative impact of AI across drug development stages.</p>
             </div>
             <div class="reference-item">
                 <h3>University of Toronto scientists use machine learning to fast-track drug formulation development</h3>
                 <p class="authors">Kate Richards</p>
-                <p><a href="https://www.pharmacy.utoronto.ca/news-announcements/university-toronto-scientists-use-machine-learning-fast-track-drug-formulation-development">https://www.pharmacy.utoronto.ca/news-announcements/university-toronto-scientists-use-machine-learning-fast-track-drug-formulation-development</a></p>
+                <p><a href="https://www.pharmacy.utoronto.ca/news-announcements/university-toronto-scientists-use-machine-learning-fast-track-drug-formulation-development" target="_blank">https://www.pharmacy.utoronto.ca/news-announcements/university-toronto-scientists-use-machine-learning-fast-track-drug-formulation-development</a></p>
+                <p class="summary">Highlights a case study on accelerating drug formulation with machine learning.</p>
             </div>
             <div class="reference-item">
                 <h3>Machine learning in drug developments</h3>
                 <p class="authors">Edison Group</p>
-                <p><a href="https://www.edisongroup.com/thematic/machine-learning-in-drug-development/33143/e">https://www.edisongroup.com/thematic/machine-learning-in-drug-development/33143/</a></p>
+                <p><a href="https://www.edisongroup.com/thematic/machine-learning-in-drug-development/33143/e" target="_blank">https://www.edisongroup.com/thematic/machine-learning-in-drug-development/33143/e</a></p>
+                <p class="summary">Provides a thematic overview of machine learning in drug development.</p>
             </div>
             <div class="reference-item">
                 <h3>How Machines Learned to Discover Drugs</h3>
                 <p class="authors">Dhruv Khullar</p>
-                <p><a href="https://newyorker.com/magazine/2024/09/09/how-machines-learned-to-discover-drugs?">https://newyorker.com/magazine/2024/09/09/how-machines-learned-to-discover-drugs?</a></p>
+                <p><a href="https://newyorker.com/magazine/2024/09/09/how-machines-learned-to-discover-drugs?" target="_blank">https://newyorker.com/magazine/2024/09/09/how-machines-learned-to-discover-drugs?</a></p>
+                <p class="summary">Offers a narrative on the evolution of machine learning in drug discovery.</p>
             </div>
         </div>
-    
-<footer>
+
+        <footer>
             <p>Last updated: <span id="lastUpdated"></span></p>
         </footer>
     </div>
